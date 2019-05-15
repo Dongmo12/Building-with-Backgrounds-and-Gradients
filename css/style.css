@@ -3,11 +3,11 @@
   }
   
   .main {
-    margin: auto;
-    width: 1440px;
+    margin-left: 180px;
+    width: 1500px;
   }
   
-  header {
+ .headers {
     position: absolute;
     top: 0;
     left: 0;
@@ -104,18 +104,18 @@
     border-left: 1px solid #ddcfcf56;
   }
   
-  #search {
+  .search {
    
     border-left: 1px solid #ddcfcf56;
   }
   
-  form {
+.form {
     position: relative;
     left: 20px;
     top: 2px;
   }
   
-  input {
+.input {
     position: absolute;
     top: -12px;
     width: 106px;
@@ -128,25 +128,12 @@
     outline: none;
     padding-left: 20px;
   }
-  
-  .fa-search {
-    font-size: 11px;
-    color: white;
-    position: absolute;
-    top: -5px;
-    left: 5px;
-    z-index: 2;
-  }
-  
-  /*Text on picture*/
   section {
     text-align: center;
     margin-top: 220px;
   }
   
-  .top,
-  .middle,
-  .bottom {
+  .top-paragraph, .middle-paragraph, .bottom-paragraph {
     color: white;
     margin: auto;
     padding: 5px;
@@ -154,18 +141,18 @@
     font-weight: 100;
   }
   
-  .top {
+  .top-paragraph {
     width: 980px;
     font-size: 64px;
   }
   
-  .middle {
+  .middle-paragraph {
     width: 980px;
     font-size: 32px;
     font-weight: 100;
   }
   
-  .bottom {
+  .bottom-paragraph {
     margin-top: 10px;
     width: 980px;
     font-size: 26px;
@@ -175,7 +162,7 @@
     margin-left: 10px;
   }
   
-  .bottom-section {
+  .down-section {
     overflow: hidden;
     height: 200;
     margin: 654px auto 0px auto;
@@ -185,57 +172,56 @@
     padding: 0;
   }
   
-  .part {
+  .item {
     align-self: center;
     width: 25%;
   }
   
-  #part2, #part3, #part4 {
+  #item2, #item3, #item4 {
     border-left: 2px solid #fff;
   }
   
   footer {
-    width: 1100px;
+    width: 1200px;
     margin: auto;
     color: #868888;
     font-size: 11px;
   }
   
   
-  .footer-wraper {
+  .main-footer  {
     margin-top: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    flex-direction: row;     
+    font-family: sans-serif;
+    font-weight: 500;
   }
   
-  .left {
+  .left-footer {
     padding-top: 10px;
     margin-top: 0px;
     height: 22px;
     
   }
   
-  .left a {
+  .left-footer a {
    text-decoration: none;
    color: #08c;
   }
   
   
-  .footer-right  {
+  .footer-down-right  {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     margin-top: 4px;
   }
    
-   .footer-right li {
+   .footer-down-right li {
      padding-top: 5px;
    }
   
-  .footer-right li a {
+  .footer-down-right li a {
      text-decoration: none;
      color: #08c;
      padding: 5px 5px 0px;
@@ -247,36 +233,36 @@
   }
   
   
-  .under-left {
+  .footer-down-left {
     margin-top: -10px;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 12px;
   }
   
-  .under-left p {
+  .footer-down-left p {
     display: inline;
   }
   
   
-  .under-left ul {
+  .footer-down-left ul {
     margin-left: -40px;
     list-style-type: none;
     display: inline;
   }
   
-  .under-left ul li {
+  .footer-down-left ul li {
     display: inline-block;
     padding: 0px  5px;
   }
   
-  .under-left ul li a {
+  .footer-down-left ul li a {
     text-decoration: none;
      color: #08c;
   } 
   
   
-  .secondli {
+  .privacy {
     border-left: 1px solid #ccc;
   }
   
