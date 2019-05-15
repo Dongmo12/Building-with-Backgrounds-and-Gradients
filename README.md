@@ -6,6 +6,6 @@ This is a simple a design of the old [apple.com](https://web.archive.org/web/201
 
 Checkout the live [here](https://raw.githack.com/Dongmo12/Building-with-Backgrounds-and-Gradients/development/index.html).
 
-# Built by:
+# Done by:
 [Armand Dongmo](https://github.com/Dongmo12)
 
