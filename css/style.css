@@ -3,8 +3,8 @@
   }
   
   .main {
-    margin-left: 180px;
-    width: 1500px;
+    margin: auto;
+    width: 1440px;
   }
   
  .headers {
@@ -128,7 +128,7 @@
     outline: none;
     padding-left: 20px;
   }
-  section {
+  aside {
     text-align: center;
     margin-top: 220px;
   }
